@@ -8,7 +8,7 @@ bot.on('sticker', (ctx) => ctx.reply('👍'))
 bot.hears('hi', (ctx) => ctx.reply('Не пиши сюда'))
 bot.launch()
 
-console.log('aaaa')
+console.log('ф')
 
 // Enable graceful stop
 process.once('SIGINT', () => bot.stop('SIGINT'))
