@@ -5,7 +5,7 @@ const bot = new Telegraf("5493678079:AAHU7jN15-m7iAoMe_E0yVcQyv_v3uxpLAY")
 bot.start((ctx) => ctx.reply('поставте пожалуйста ешку'))
 bot.help((ctx) => ctx.reply('Send me a sticker'))
 bot.on('sticker', (ctx) => ctx.reply('👍'))
-bot.hears('hi', (ctx) => ctx.reply('поставте пожалуйста ашку'))
+bot.hears('hi', (ctx) => ctx.reply('поставте пожалуйста A'))
 bot.launch()
 
 // Enable graceful stop
